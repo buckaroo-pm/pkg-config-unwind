@@ -1,0 +1,16 @@
+cxx_binary(
+  name = 'demo',
+  srcs = [
+    'demo.c',
+  ],
+  deps = [
+    '//:unwind',
+  ],
+)
+
+cxx_binary(
+  name = 'hello',
+  srcs = [
+    'hello.cpp',
+  ],
+)
